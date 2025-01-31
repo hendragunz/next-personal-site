@@ -1,6 +1,29 @@
+"use client"
+
 import Link from "next/link"
+import { useEffect } from "react"
+
+const useScript = (url) => {
+  useEffect(() => {
+    const script = document.createElement("script")
+
+    script.src = url
+    script.async = true
+    script.onload = () => {
+      initEverything()
+    }
+
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [url])
+}
 
 export default function Footer() {
+  useScript("js/main.js")
+
   return (
     <>
       <footer className="text-center">

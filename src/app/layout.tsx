@@ -18,12 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full default">
+    <html lang="en" className="h-full">
       <body className="relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light">
         <div className="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6">
           <Header />
-
-
 
           <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
             <Profile />
@@ -59,11 +57,10 @@ export default function RootLayout({
           </div>
         </div>
 
-        <Script src="/js/preline.js" strategy="beforeInteractive" />
-        <Script src="/js/swiper-bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/js/venobox.min.js" strategy="beforeInteractive" />
-        <Script src="/js/clipboard.min.js" strategy="beforeInteractive" />
-        <Script src="/js/main.js" strategy="beforeInteractive" />
+        <Script src="/js/preline.js" strategy="afterInteractive" />
+        <Script src="/js/swiper-bundle.min.js" strategy="afterInteractive" />
+        <Script src="/js/venobox.min.js" strategy="afterInteractive" />
+        <Script src="/js/clipboard.min.js" strategy="afterInteractive" />
       </body>
     </html>
   )
