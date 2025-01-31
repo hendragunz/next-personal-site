@@ -138,7 +138,7 @@ export default function Header() {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
-                <span>Let's Talk</span>
+                <span>Let&apos;s Talk</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -308,7 +308,7 @@ export default function Header() {
             <Link
               href="/contact"
               className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
-              <span>Let's Talk</span>
+              <span>Let&apos;s Talk</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
