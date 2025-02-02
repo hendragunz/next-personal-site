@@ -6,11 +6,12 @@ import { useEffect } from "react"
 const useScript = (url) => {
   useEffect(() => {
     const script = document.createElement("script")
-
     script.src = url
     script.async = true
     script.onload = () => {
-      initEverything()
+      setTimeout(() => {
+        onload()
+      }, 1000); // Adjust the delay as needed
     }
 
     document.body.appendChild(script)

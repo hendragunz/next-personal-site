@@ -9,6 +9,7 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+		darkMode: "class",
 		container: {
 			center: true,
 			padding: "1.5rem",
@@ -37,7 +38,6 @@ export default {
 				'spin-slow': 'spin 10s linear infinite',
 				'spin-very-slow': 'spin 90s linear infinite',
 			},
-
 			keyframes: {
 				scroll: {
 					from: { transform: "translateX(0)" },
@@ -50,6 +50,8 @@ export default {
 			},
 		},
 	},
-	// plugins: [require("preline/plugin"), require("@tailwindcss/typography")],
-	plugins: [],
+	plugins: [
+		require("preline/plugin"),
+		require("@tailwindcss/typography")
+	],
 } satisfies Config;
