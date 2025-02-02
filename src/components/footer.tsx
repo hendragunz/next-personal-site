@@ -3,16 +3,17 @@
 import Link from "next/link"
 import { useEffect } from "react"
 
-const useScript = (url) => {
+const useScript = (url: string) => {
   useEffect(() => {
     const script = document.createElement("script")
     script.src = url
     script.async = true
     script.onload = () => {
       setTimeout(() => {
-        window.onload()
-      }, 1000); // Adjust the delay as needed
-    }
+        onload()
+      }, 500); // Adjust the delay as needed
+     }
+
 
     document.body.appendChild(script)
 

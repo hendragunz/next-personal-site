@@ -5,6 +5,7 @@ import PrelineScript from "@/components/PrelineScript"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Profile from "@/components/profile"
+import Image from "next/image"
 
 import Script from "next/script"
 
@@ -48,26 +49,45 @@ export default function RootLayout({
         <div className="shapes">
           <div
             className="fixed -left-1/2 -top-1/2 -z-10 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3">
-            <img src="/images/gradient-1.png" alt="Weh Developer" />
+            <Image
+              src="/images/gradient-1.png"
+              alt="Weh Developer"
+              loading="eager"
+              width={1088}
+              height={1088}
+            />
           </div>
 
           <div
             className="fixed -right-[50%] top-[10%] -z-10 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]">
-            <img src="/images/gradient-2.png"
-            alt="Weh Developer"
+            <Image
+              src="/images/gradient-2.png"
+              alt="Weh Developer"
+              loading="eager"
+              width={1088}
+              height={1088}
             />
 
           </div>
 
           <div className="move-with-cursor fixed left-[10%] top-[20%] -z-10">
-            <img src="/images/object-3d-1.png"
-            alt="Weh Developer"
+            <Image
+              src="/images/object-3d-1.png"
+              alt="Weh Developer"
+              loading="eager"
+              width={72}
+              height={72}
             />
           </div>
 
           <div className="move-with-cursor fixed bottom-[20%] right-[10%] -z-10">
-            <img src="/images/object-3d-2.png"
-            alt="Weh Developer" />
+            <Image
+              src="/images/object-3d-2.png"
+              alt="Weh Developer"
+              loading="eager"
+              width={72}
+              height={72}
+            />
           </div>
         </div>
       </body>
