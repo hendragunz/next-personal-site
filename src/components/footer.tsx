@@ -10,7 +10,7 @@ const useScript = (url) => {
     script.async = true
     script.onload = () => {
       setTimeout(() => {
-        onload()
+        window.onload()
       }, 1000); // Adjust the delay as needed
     }
 
