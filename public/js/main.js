@@ -73,9 +73,7 @@ function onload() {
   const $clickableThemes = document.querySelectorAll(
     "[data-hs-theme-click-value]"
   );
-  const $switchableThemes = document.querySelectorAll(
-    "[data-hs-theme-switch]"
-  );
+  const $switchableThemes = document.querySelectorAll("[data-hs-theme-switch]");
 
   $clickableThemes.forEach(($item) => {
     $item.addEventListener("click", () =>
@@ -158,4 +156,23 @@ function onload() {
       }, 800);
     });
   });
+
+  // const reviewCarousel = new Swiper(".review-carousel", {
+  //   // Default parameters
+  //   slidesPerView: 1,
+  //   spaceBetween: 24,
+  //   loop: true,
+  //   navigation: {
+  //     nextEl: ".review-carousel-button-next",
+  //     prevEl: ".review-carousel-button-prev",
+  //   },
+  //   breakpoints: {
+  //     1: {
+  //       slidesPerView: 1,
+  //     },
+  //     768: {
+  //       slidesPerView: 2,
+  //     },
+  //   },
+  // });
 }

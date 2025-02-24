@@ -8,6 +8,7 @@ import Profile from "@/components/profile"
 import Image from "next/image"
 
 import Script from "next/script"
+import Link from "next/link"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -90,10 +91,15 @@ export default function RootLayout({
             />
           </div>
         </div>
-      </body>
 
-      <PrelineScript />
-      <Script async src="/js/clipboard.min.js" strategy="afterInteractive" />
+        <PrelineScript />
+        <Script async src="/js/clipboard.min.js" strategy="afterInteractive" />
+        {/* <Link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <Script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></Script> */}
+      </body>
     </html>
   )
 }

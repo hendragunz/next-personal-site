@@ -146,7 +146,6 @@ export default function Works() {
           </Link>
         </li>
 
-
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2010 - Sept 2011 . 1 yrs 3mo</time>
@@ -185,6 +184,23 @@ export default function Works() {
                 d="M1 5h12m0 0L9 1m4 4L9 9" />
             </svg>
           </Link>
+        </li>
+
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct 2009 - March 2011 . Less than a year</time>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">IT Support, Maintenance and Troubleshooting</h3>
+
+          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            Develop desktop application using Delphi 7.
+            <br/>
+            Maintenance Server (database and web server).
+            <br />
+            Maintenance Software for stock control system, online reservation system, and others...
+            <br />
+            Network Administrator and mikrotik installation
+          </p>
+
         </li>
       </ol>
 
