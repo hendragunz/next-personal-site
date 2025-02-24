@@ -8,7 +8,6 @@ import Profile from "@/components/profile"
 import Image from "next/image"
 
 import Script from "next/script"
-import Link from "next/link"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
