@@ -37,7 +37,7 @@ export default function Home() {
           <p className="mb-2">
             Highly interested with Web development (both backend and front-end), building RESTFul API System, E-Commerce, Payment Processing, Data Processing, and Automation Testing.
             Also a startup enthusiast, to help and grow up together with the lovely startup companies.
-            I'm highly adaptable to working on many industries / startup businesses across the countries.
+            I&apos;m highly adaptable to working on many industries / startup businesses across the countries.
           </p>
 
           <div className="mb-2">
@@ -433,7 +433,7 @@ export default function Home() {
                       Hendra was an EXCELLENT fit for my particular job. We needed someone who had OAuth experience in relation to setting up an actual OAuth provider. I went through 2 or 3 freelancers who thought they could do it but nobody could really deliver until I met Hendra. His written English was much better than his spoken English, but between texting, phone calls, and screen shots, we were able to get the job done 100% to my satisfaction. He was very good with deadlines, ALWAYS available when he said he would be, and just great with communication and keeping his word in every respect.
                     </p>
                     <p className="mb-2">
-                      I would highly recommend Hendra for any job related to Linux, Rails, web development, etc. etc. Some issues came up that were related to some tricky gem management/ RVM issues and he was very knowledgeable and helpful in troubleshooting them. All of this may be a bit " T.M.I. ", but I'm sharing this to illustrate the point that this guy is very experienced, very nimble, and a very reliable person to work with .
+                      I would highly recommend Hendra for any job related to Linux, Rails, web development, etc. etc. Some issues came up that were related to some tricky gem management/ RVM issues and he was very knowledgeable and helpful in troubleshooting them. All of this may be a bit &quot;T.M.I.&quot;, but I&apos;m sharing this to illustrate the point that this guy is very experienced, very nimble, and a very reliable person to work with .
                     </p>
 
                     <p>Five stars plus.</p>
