@@ -29,47 +29,6 @@ export default function Home() {
             &nbsp;
             of Experiences over many projects across countries.
           </p>
-
-          <p className="mb-2">
-            Dynamic Ruby / Rails Programmer with a proven experience in developing robust web applications and payment systems. Expertise spans across backend development, API creation, and team collaboration, ensuring high security, performance, and compliance standards. Proficient in SQL, HTML & CSS, and JavaScript, with a solid foundation in various technologies, including NodeJS and AWS. Passionate about leveraging a full-stack skill set to deliver innovative solutions and elevate project outcomes while continuously embracing new technologies and methodologies. Ready to contribute to a forward-thinking team dedicated to impactful web development.
-          </p>
-
-          <p className="mb-2">
-            Highly interested with Web development (both backend and front-end), building RESTFul API System, E-Commerce, Payment Processing, Data Processing, and Automation Testing.
-            Also a startup enthusiast, to help and grow up together with the lovely startup companies.
-            I&apos;m highly adaptable to working on many industries / startup businesses across the countries.
-          </p>
-
-          <div className="mb-2">
-            <p className="mb-2">My favorite stacks:</p>
-            <ul>
-              <li>✅ Ruby on Rails</li>
-              <li>✅ Bootstrap / Tailwind for CSS</li>
-              <li>✅ Hotwire & Stimulus for Front-end more dynamic</li>
-              <li>✅ ElasticSearch for fulltext search engine</li>
-              <li>✅ SQL (Postgresql & MySQL)</li>
-              <li>✅ MongoDB</li>
-              <li>✅ Retool (for building frontend system with less code)</li>
-              <li>✅ NodeJS / ExpressJS (for API or Web Development)</li>
-              <li>✅ React for Frontend development</li>
-            </ul>
-          </div>
-
-          <div className="mb-2">
-            <p className="mb-2">Key Qualifications:</p>
-
-            <ul>
-              <li>⭐ Expert in Ruby on Rails</li>
-              <li>⭐ Expert in RESTFul API development</li>
-              <li>⭐ Familiar with MERN Stack</li>
-              <li>⭐ Focus on Quality, Reliability and Security performance</li>
-              <li>⭐ Focus on web development, and mobile friendly</li>
-              <li>⭐ Hard worker, organized, attention to details</li>
-              <li>⭐ Comfortable work as independent or in a team</li>
-              <li>⭐ Always love to learn new tech</li>
-              <li>⭐ Good communication with team</li>
-            </ul>
-          </div>
         </div>
 
         <div
@@ -81,6 +40,49 @@ export default function Home() {
               className="relative inline-flex h-2 w-2 rounded-full bg-primary"></span>
           </span>
           <span>Available For Hire</span>
+        </div>
+      </div>
+
+      <div className="mt-8 flex flex-wrap justify-between gap-4 lg:mt-12 lg:gap-6">
+        <p className="text-justify">
+          Dynamic Ruby / Rails Programmer with a proven experience in developing robust web applications and payment systems. Expertise spans across backend development, API creation, and team collaboration, ensuring high security, performance, and compliance standards. Proficient in SQL, HTML & CSS, and JavaScript, with a solid foundation in various technologies, including NodeJS and AWS. Passionate about leveraging a full-stack skill set to deliver innovative solutions and elevate project outcomes while continuously embracing new technologies and methodologies. Ready to contribute to a forward-thinking team dedicated to impactful web development.
+        </p>
+
+        <p className="text-justify text-justify">
+          Highly interested with Web development (both backend and front-end), building RESTFul API System, E-Commerce, Payment Processing, Data Processing, and Automation Testing.
+          Also a startup enthusiast, to help and grow up together with the lovely startup companies.
+          I&apos;m highly adaptable to working on many industries / startup businesses across the countries.
+        </p>
+
+        <div className="">
+          <p className="mb-2">My favorite stacks:</p>
+          <ul>
+            <li>✅ Ruby on Rails</li>
+            <li>✅ Bootstrap / Tailwind for CSS</li>
+            <li>✅ Hotwire & Stimulus for Front-end more dynamic</li>
+            <li>✅ ElasticSearch for fulltext search engine</li>
+            <li>✅ SQL (Postgresql & MySQL)</li>
+            <li>✅ MongoDB</li>
+            <li>✅ Retool (for building frontend system with less code)</li>
+            <li>✅ NodeJS / ExpressJS (for API or Web Development)</li>
+            <li>✅ React for Frontend development</li>
+          </ul>
+        </div>
+
+        <div className="">
+          <p className="mb-2">Key Qualifications:</p>
+
+          <ul>
+            <li>⭐ Expert in Ruby on Rails</li>
+            <li>⭐ Expert in RESTFul API development</li>
+            <li>⭐ Familiar with MERN Stack</li>
+            <li>⭐ Focus on Quality, Reliability and Security performance</li>
+            <li>⭐ Focus on web development, and mobile friendly</li>
+            <li>⭐ Hard worker, organized, attention to details</li>
+            <li>⭐ Comfortable work as independent or in a team</li>
+            <li>⭐ Always love to learn new tech</li>
+            <li>⭐ Good communication with team</li>
+          </ul>
         </div>
       </div>
 
@@ -149,38 +151,6 @@ export default function Home() {
           <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
             Trusted by many clients
           </h3>
-
-          <div className="flex items-center gap-2">
-            <button
-              className="review-carousel-button-prev grid h-9 w-9 place-content-center rounded-lg border border-muted/30 text-muted transition hover:border-primary hover:text-primary">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                className="h-5 w-5 shrink-0">
-                <path d="M4.167 10h11.666M4.167 10l5 5m-5-5 5-5" />
-              </svg>
-            </button>
-
-            <button
-              className="review-carousel-button-next grid h-9 w-9 place-content-center rounded-lg border border-muted/30 text-muted transition hover:border-primary hover:text-primary">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                className="h-5 w-5 shrink-0">
-                <path d="M4.167 10h11.666m-5 5 5-5m-5-5 5 5" />
-              </svg>
-            </button>
-          </div>
         </div>
 
         <div className="mt-8">

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Works() {
   return (
-    <>
+    <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
       <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight">Work Experience</h2>
 
 
@@ -193,7 +193,7 @@ export default function Works() {
 
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
             Develop desktop application using Delphi 7.
-            <br/>
+            <br />
             Maintenance Server (database and web server).
             <br />
             Maintenance Software for stock control system, online reservation system, and others...
@@ -203,9 +203,7 @@ export default function Works() {
 
         </li>
       </ol>
-
-
-    </>
+    </div>
 
   )
 }

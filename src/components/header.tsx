@@ -134,24 +134,6 @@ export default function Header() {
                   </svg>
                 </button>
               </div> */}
-
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
-                <span>Let&apos;s Talk</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 20 20"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  className="h-5 w-5">
-                  <path d="M17.5 11.667v-5h-5" />
-                  <path d="m17.5 6.667-7.5 7.5-7.5-7.5" />
-                </svg>
-              </Link>
             </div>
 
             <button
